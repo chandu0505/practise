@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int numbers[3] = {1, 2, 3};
-    int count = 3;
+    int numbers[4] = {1, 2, 3, 4};
+    int count = 4;
 
     for (int i = 0; i < count; i++) {
         printf("%d ", numbers[i]);
