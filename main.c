@@ -5,6 +5,10 @@ int main() {
     int count = 4;
 
     for (int i = 0; i < count; i++) {
+        numbers[i] *= 2;
+    }
+
+    for (int i = 0; i < count; i++) {
         printf("%d ", numbers[i]);
     }
     printf("\n");
